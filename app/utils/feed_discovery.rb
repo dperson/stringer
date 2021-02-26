@@ -1,9 +1,9 @@
 require "feedbag"
 require "feedjira"
-require "httparty"
+require "open-uri"
 
 class FeedDiscovery
-  def discover(url, finder = Feedbag, parser = Feedjira, client = HTTParty)
+  def discover(url, finder = Feedbag, parser = Feedjira, client = URI)
     get_feed_for_url(url, parser, client) do
       urls = finder.find(url)
       return false if urls.empty?
@@ -15,7 +15,7 @@ class FeedDiscovery
   end
 
   def get_feed_for_url(url, parser, client)
-    response = client.get(url).to_s
+    response = client.parse(url).read
     feed = parser.parse(response)
     feed.feed_url ||= url
     feed

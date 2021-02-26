@@ -67,7 +67,6 @@ GEM
     mini_portile2 (2.5.0)
     minitest (5.14.4)
     multi_json (1.15.0)
-    multi_xml (0.6.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nokogiri (1.11.3)
@@ -212,7 +211,6 @@ DEPENDENCIES
   faker
   feedbag
   feedjira
-  httparty
   i18n
   loofah
   nokogiri

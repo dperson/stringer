@@ -1,12 +1,12 @@
 require "feedjira"
-require "httparty"
+require "open-uri"
 
 require_relative "../repositories/story_repository"
 require_relative "../repositories/feed_repository"
 require_relative "../commands/feeds/find_new_stories"
 
 class FetchFeed
-  def initialize(feed, parser: Feedjira, client: HTTParty, logger: nil)
+  def initialize(feed, parser: Feedjira, client: URI, logger: nil)
     @feed = feed
     @parser = parser
     @client = client
@@ -32,7 +32,7 @@ class FetchFeed
   private
 
   def fetch_raw_feed
-    response = @client.get(@feed.url).to_s
+    response = @client.parse(@feed.url).read
     @parser.parse(response)
   end
 
