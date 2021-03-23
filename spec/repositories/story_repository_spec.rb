@@ -203,8 +203,8 @@ describe StoryRepository do
 
   describe ".unread" do
     it "returns unread stories ordered by published date descending" do
-      story1 = create_story(:unread, published: 5.minutes.ago)
-      story2 = create_story(:unread, published: 4.minutes.ago)
+      story1 = create_story(:unread, published: 4.minutes.ago)
+      story2 = create_story(:unread, published: 5.minutes.ago)
 
       expect(StoryRepository.unread).to eq([story2, story1])
     end
@@ -304,7 +304,7 @@ describe StoryRepository do
       story1 = create_story(:starred, published: 1.day.ago)
       story2 = create_story(:starred, published: 1.hour.ago)
 
-      expect(StoryRepository.starred).to eq([story2, story1])
+      expect(StoryRepository.starred).to eq([story1, story2])
     end
 
     it "does not return unstarred stories" do
@@ -318,7 +318,7 @@ describe StoryRepository do
         21.times.map { |num| create_story(:starred, published: num.days.ago) }
 
       expect(StoryRepository.starred).to eq(stories[0...20])
-      expect(StoryRepository.starred(2)).to eq([stories.last])
+      expect(StoryRepository.starred(2)).to eq([stories.first])
     end
   end
 

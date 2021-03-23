@@ -1,8 +1,8 @@
 # Stringer
 
-[![Build Status](https://api.travis-ci.org/swanson/stringer.svg?style=flat)](https://travis-ci.org/swanson/stringer)
-[![Code Climate](https://codeclimate.com/github/swanson/stringer.svg?style=flat)](https://codeclimate.com/github/swanson/stringer)
-[![Coverage Status](https://coveralls.io/repos/swanson/stringer/badge.svg?style=flat)](https://coveralls.io/r/swanson/stringer)
+[![Build Status](https://travis-ci.org/dperson/stringer.svg?branch=tweak)](https://travis-ci.org/dperson/stringer)
+[![Code Climate](https://codeclimate.com/github/dperson/stringer.svg)](https://codeclimate.com/github/dperson/stringer)
+[![Coverage Status](https://coveralls.io/repos/github/dperson/stringer/badge.svg?branch=tweak)](https://coveralls.io/github/dperson/stringer?branch=tweak)
 
 ### A self-hosted, anti-social RSS reader.
 
@@ -22,7 +22,7 @@ Stringer is a Ruby (2.3.0+) app based on Sinatra, ActiveRecord, PostgreSQL, Back
 
 Stringer will run just fine on the Heroku free plan.
 
-Instructions are provided for deploying to [Heroku manually](/docs/Heroku.md), to any Ruby 
+Instructions are provided for deploying to [Heroku manually](/docs/Heroku.md), to any Ruby
 compatible [Linux-based VPS](/docs/VPS.md), to [Docker](docs/docker.md) and to [OpenShift](/docs/OpenShift.md).
 
 ## Niceties
@@ -87,6 +87,8 @@ You can clean up old stories by running: `rake cleanup_old_stories`
 By default, this removes read stories that are more than 30 days old (that
 are not starred). You can either run this manually or add it as a scheduled
 task.
+
+---
 
 ## Development
 

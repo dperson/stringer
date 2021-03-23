@@ -21,6 +21,14 @@ task :fetch_feeds do
   FetchFeeds.new(Feed.all).fetch_all
 end
 
+desc "Sanitize all feeds."
+task :sanitize do
+  Story.all.each do |story|
+    story.body = StoryRepository.sanitize(story.body)
+    story.save!
+  end
+end
+
 desc "Lazily fetch all feeds."
 task :lazy_fetch do
   if ENV["APP_URL"]
