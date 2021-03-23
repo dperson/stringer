@@ -6,7 +6,7 @@ sv:
     sorry: Tyvärr, du har inte läst några berättelser än!
   date:
     abbr_month_names:
-    - 
+    -
     - jan
     - feb
     - mar
@@ -104,7 +104,7 @@ sv:
         np: Gå ner/upp
         oenter: Öppna/stäng berättelse
         or: eller
-        r: Uppdatera
+        ru: Uppdatera
         right: Nästa sida
         s: Markera som stjärnmärkt/ej stjärnmärkt
         shifta: Markera alla som lästa

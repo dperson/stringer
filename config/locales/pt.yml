@@ -6,7 +6,7 @@ pt:
     sorry: Desculpe, ainda não leu nenhuma história!
   date:
     abbr_month_names:
-    - 
+    -
     - Jan
     - Fev
     - Mar
@@ -32,11 +32,11 @@ pt:
       title: Precisa de novas histórias?
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: adicionar
       add_some_feeds: Ei, você deveria %{add} algumas feeds.
@@ -53,8 +53,8 @@ pt:
       subtitle: 'Existe apenas um utilizador: você.'
       title: Stringer é
   flash:
-    cookies_required: 
-    js_required: 
+    cookies_required:
+    js_required:
   import:
     description: '%{link} as suas feeds do Google Reader e importe-as.'
     export: Exportar
@@ -67,7 +67,7 @@ pt:
     back_to_work: Volte ao trabalho, preguiçoso!
     export: Exportar
     hey: Ei!
-    import: 
+    import:
     logout: Sair
     support: Suporte
     title: stringer | o seu amigo rss
@@ -95,18 +95,18 @@ pt:
       starred_stories: Favoritas histórias
     shortcuts:
       keys:
-        a: 
+        a:
         bv: Ir para a URL da história
-        f: 
+        f:
         jk: Próxima história/História anterior
-        left: 
+        left:
         m: Marcar item como lido/não lido
         np: Mover para baixo/Mover para cima
         oenter: Alternar como história aberta/fechada
         or: ou
-        r: Atualizar
-        right: 
-        s: 
+        ru: Atualizar
+        right:
+        s:
         shifta: Marcar tudo como lido
       title: Atalhos do teclado
     zen:
@@ -128,10 +128,10 @@ pt:
       subtitle: Bem vindo novamente, amigo.
       title: Stringer fala
   starred:
-    next: 
-    of: 
-    previous: 
-    sorry: 
+    next:
+    of:
+    previous:
+    sorry:
   stories:
     keep_unread: Continuar como não lido
   time:
@@ -142,9 +142,9 @@ pt:
     as_read: como lido
     click_to_read: (clique para ler)
     description: Estamos a actualizar as suas histórias, dê-nos um segundo.
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: marcar todos
     ready: Ok, está pronto!
     refresh: atualizar

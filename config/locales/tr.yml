@@ -6,7 +6,7 @@ tr:
     sorry: Üzgünüm, daha hic bir hikayeyi okumadiniz!
   date:
     abbr_month_names:
-    - 
+    -
     - Ocak
     - Subat
     - Mart
@@ -32,11 +32,11 @@ tr:
       title: Yeni hikayelere mi ihtiyaciniz var?
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: ekle
       add_some_feeds: Hey, you should %{add} some feeds.
@@ -56,7 +56,7 @@ tr:
     cookies_required: Aaa, garip!. Uygulamanin duzgun calismasi icin Cookies gerekli.
     js_required: Aaa, garip. Uygulamanin duzgun calismasi icin Javascript gerekli.
   import:
-    description: 
+    description:
     export: Disa Aktar
     fields:
       import: Ekle
@@ -67,7 +67,7 @@ tr:
     back_to_work: Hadi isine geri don!
     export: Disa Aktar
     hey: Hey!
-    import: 
+    import:
     logout: Cikis Yap
     support: Destekle
     title: stringer | rss kankan
@@ -77,7 +77,7 @@ tr:
       archived_stories: Arsivlenen hikayeler
       mark_all: Hepsini okunmus olarak isaretle
       refresh: Yenile
-      starred_stories: 
+      starred_stories:
       view_feeds: Beslemeleri Goruntule
     feed:
       last_fetched:
@@ -92,21 +92,21 @@ tr:
       archived_stories: Arsivlenmis hikayeler
       feeds: Beslemeleri Goruntule
       home: Hikayelere geri don
-      starred_stories: 
+      starred_stories:
     shortcuts:
       keys:
-        a: 
+        a:
         bv: Hikaye URL'sine git
-        f: 
+        f:
         jk: Sonraki/onceki hikaye
-        left: 
+        left:
         m: Okundu/okunmadi olarak isaretle
         np: Asagi/yukari hareket et
         oenter: Hikayeyi ac/kapa
         or: yada
-        r: Yenile
-        right: 
-        s: 
+        ru: Yenile
+        right:
+        s:
         shifta: Hepsini okundu olarak isaretle
       title: Klavye kisayollari
     zen:
@@ -128,10 +128,10 @@ tr:
       subtitle: Tekrar hosgeldin, dostum.
       title: Stringer diyoki
   starred:
-    next: 
-    of: 
-    previous: 
-    sorry: 
+    next:
+    of:
+    previous:
+    sorry:
   stories:
     keep_unread: Okunmadi olarak tut
   time:
@@ -142,9 +142,9 @@ tr:
     as_read: okundu olarak
     click_to_read: (okumak icin tikla)
     description: Sana okuman icin hikayeler getirecegiz, bize biraz zaman ver.
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: hepsini isaretle
     ready: Tamam hazir!
     refresh: yenile

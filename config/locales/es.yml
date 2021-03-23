@@ -6,7 +6,7 @@ es:
     sorry: ¡Lo siento, aún no has leido ninguna historia!
   date:
     abbr_month_names:
-    - 
+    -
     - Ene
     - Feb
     - Mar
@@ -104,7 +104,7 @@ es:
         np: Mover hacia abajo/arriba
         oenter: Alternar historia como abierta/cerrada
         or: o
-        r: Refrescar
+        ru: Refrescar
         right: Siguiente página
         s: Marcar item como destacado/no destacado
         shifta: Marcar todo como leído

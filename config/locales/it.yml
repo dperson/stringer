@@ -6,7 +6,7 @@ it:
     sorry: Spiacente, non hai ancora letto nessuna storia!
   date:
     abbr_month_names:
-    - 
+    -
     - gen
     - feb
     - mar
@@ -32,11 +32,11 @@ it:
       title: Bisogno di nuove storie?
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: aggiungere
       add_some_feeds: Hey, dovresti %{add} qualche feed.
@@ -97,14 +97,14 @@ it:
       keys:
         a: Aggiungi un feed
         bv: Vai all'URL della storia
-        f: 
+        f:
         jk: Prossima/precedente storia
         left: Pagina precedente
         m: Segna come letto/non letto
         np: Spostati giù/su
         oenter: Apri/chiudi la storia
         or: o
-        r: Aggiorna
+        ru: Aggiorna
         right: Pagina successiva
         s: Segna come preferita/non preferita
         shifta: Segna tutte le storie come lette
@@ -142,9 +142,9 @@ it:
     as_read: come lette
     click_to_read: (clicca per leggere)
     description: Stiamo importando alcune storie da leggere, dacci un secondo.
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: segna tutte
     ready: Okay, è pronto!
     refresh: aggiorna

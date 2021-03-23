@@ -6,7 +6,7 @@ en:
     sorry: Sorry, you haven't read any stories yet!
   date:
     abbr_month_names:
-    - 
+    -
     - Jan
     - Feb
     - Mar
@@ -105,7 +105,7 @@ en:
         np: Move down/move up
         oenter: Toggle story open/closed
         or: or
-        r: Refresh
+        ru: Refresh
         right: Next page
         s: Mark item as starred/unstarred
         shifta: Mark all as read

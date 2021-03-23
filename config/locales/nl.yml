@@ -6,7 +6,7 @@ nl:
     sorry: Sorry, je hebt nog geen artikelen gelezen!
   date:
     abbr_month_names:
-    - 
+    -
     - jan
     - feb
     - mar
@@ -104,7 +104,7 @@ nl:
         np: Naar beneden/boven verplaaten
         oenter: Artikel open-/dichtklappen
         or: of
-        r: Vernieuwen
+        ru: Vernieuwen
         right: Volgende pagina
         s: Artikel markeren met ster/zonder ster
         shifta: Alles als gelezen markeren

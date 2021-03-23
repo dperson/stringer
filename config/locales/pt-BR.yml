@@ -6,7 +6,7 @@ pt-BR:
     sorry: Desculpe, você não leu alguma história ainda!
   date:
     abbr_month_names:
-    - 
+    -
     - Jan
     - Fev
     - Mar
@@ -32,11 +32,11 @@ pt-BR:
       title: Precisa de novas histórias?
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: adicionar
       add_some_feeds: Ei, você deveria %{add} alguns feeds.
@@ -97,14 +97,14 @@ pt-BR:
       keys:
         a: Adicione um feed
         bv: Ir para a URL da história
-        f: 
+        f:
         jk: História próxima/anterior
         left: Página anterior
         m: Marcar item como lido/não lido
         np: Mover para baixo/Mover para cima
         oenter: Alterna história aberta/fechada
         or: ou
-        r: Atualizar
+        ru: Atualizar
         right: Próxima Página
         s: Marcar item com estrela/Remover estrela
         shifta: Marcar tudo como lido
@@ -142,9 +142,9 @@ pt-BR:
     as_read: como lido
     click_to_read: (clique para ler)
     description: Nós estamos pegando algumas histórias para leitura, dê-nos um segundo.
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: marcar todos
     ready: Ok, está pronto!
     refresh: atualizar

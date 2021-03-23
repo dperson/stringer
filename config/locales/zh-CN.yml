@@ -6,7 +6,7 @@ zh-CN:
     sorry: 呃，你现在还没有已经读过的故事
   date:
     abbr_month_names:
-    - 
+    -
     - 一月
     - 二月
     - 三月
@@ -32,11 +32,11 @@ zh-CN:
       title: 想要添加新内容？
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: 添加
       add_some_feeds: 你应该%{add}一些订阅哟~
@@ -97,14 +97,14 @@ zh-CN:
       keys:
         a: 添加新订阅
         bv: 转到原网址
-        f: 
+        f:
         jk: 下一个/上一个故事
         left: 上一页
         m: 将一个条目标为已读/未读
         np: 向上/向下移动
         oenter: 点击打开/关闭
         or: 或
-        r: 刷新
+        ru: 刷新
         right: 下一页
         s: 将条目标为加注星标/取消星标
         shifta: 全部标为已读
@@ -142,9 +142,9 @@ zh-CN:
     as_read: 已读
     click_to_read: （点击阅读）
     description: 我们正在努力的加载您订阅的内容，请稍等。
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: 全部标为
     ready: 好了，我想你已经准备好了~
     refresh: 刷新

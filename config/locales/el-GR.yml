@@ -6,7 +6,7 @@ el-GR:
     sorry: Δεν έχετε διαβάσει κάποια είδηση ακόμη.
   date:
     abbr_month_names:
-    - 
+    -
     - Ιαν
     - Φεβ
     - Μαρ
@@ -32,11 +32,11 @@ el-GR:
       title: Όρεξη για καινούριες ειδήσεις?
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: εισάγεις
       add_some_feeds: Επ! Γιατί δεν %{add} μερικά ιστολόγια στη συλλογή σου?
@@ -67,7 +67,7 @@ el-GR:
     back_to_work: Γύρνα στην δουλειά σου, τεμπέλη!
     export: Εξαγωγή
     hey: Γειά!
-    import: 
+    import:
     logout: Έξοδος
     support: Υποστήριξη
     title: stringer | ο φίλος των rss σου
@@ -77,7 +77,7 @@ el-GR:
       archived_stories: Αποθηκευμένες ιστοσελίδες
       mark_all: Επισήμανση όλων ως αναγνωσμένα
       refresh: Ανανέωση
-      starred_stories: 
+      starred_stories:
       view_feeds: Εμφάνιση ιστολογίων
     feed:
       last_fetched:
@@ -92,21 +92,21 @@ el-GR:
       archived_stories: Αποθηκευμένες ιστοσελίδες
       feeds: Εμφάνιση ιστολογίων
       home: Επιστροφή στις ειδήσεις
-      starred_stories: 
+      starred_stories:
     shortcuts:
       keys:
-        a: 
+        a:
         bv: Πήγαινε στην διεύθυνση
-        f: 
+        f:
         jk: Επόμενη/Προηγούμενη είδηση
-        left: 
+        left:
         m: Σημειώστε το νέο ως αναγνωσμένο ή όχι
         np: Πάνω/κάτω
         oenter: Εναλλαγή ανοιχτής/κλειστής είδησης
         or: ή
-        r: Ανανέωση
-        right: 
-        s: 
+        ru: Ανανέωση
+        right:
+        s:
         shifta: Επισήμανση όλων ως αναγνωσμένα
       title: Συντομεύσεις στο πληκτρολόγιο
     zen:
@@ -128,10 +128,10 @@ el-GR:
       subtitle: Καλωσήρθες πίσω, φίλε.
       title: Το Stringer λέει
   starred:
-    next: 
-    of: 
-    previous: 
-    sorry: 
+    next:
+    of:
+    previous:
+    sorry:
   stories:
     keep_unread: Φύλαξη στα μη αναγνωσμένα
   time:
@@ -142,9 +142,9 @@ el-GR:
     as_read: ως αναγνωσμένα
     click_to_read: (πάτα εδώ για ανάγνωση)
     description: Μια στιγμή, ετοιμάζουμε τις ειδήσεις προς ανάγνωση.
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: επισήμανση όλων
     ready: Έτοιμοι!
     refresh: ανανέωση

@@ -6,7 +6,7 @@ de:
     sorry: Entschuldigung, du hast noch keine Geschichten gelesen.
   date:
     abbr_month_names:
-    - 
+    -
     - Jan
     - Feb
     - Mär
@@ -104,7 +104,7 @@ de:
         np: Hoch/runter bewegen
         oenter: Klappe Artikel aus/ein
         or: oder
-        r: Aktualisieren
+        ru: Aktualisieren
         right: Nächste Seite
         s: Eintrag als Favorit markieren
         shifta: Alle als gelesen markieren

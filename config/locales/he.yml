@@ -6,7 +6,7 @@ he:
     sorry: טרם קראת את הפוסטים!
   date:
     abbr_month_names:
-    - 
+    -
     - יאנ
     - פבר
     - מרץ
@@ -32,11 +32,11 @@ he:
       title: מחפש מה לקרוא?
     edit:
       fields:
-        feed_name: 
-        feed_url: 
-        submit: 
+        feed_name:
+        feed_url:
+        submit:
       flash:
-        updated_successfully: 
+        updated_successfully:
     index:
       add: להוסיף
       add_some_feeds: הי, כדאי %{add} קצת פידים.
@@ -53,8 +53,8 @@ he:
       subtitle: יש רק משתמש יחיד. אתה.
       title: סטרינגר זה
   flash:
-    cookies_required: 
-    js_required: 
+    cookies_required:
+    js_required:
   import:
     description: '%{link} את הפיד שלך מ- Google Reader ויבא אותו.'
     export: יצוא
@@ -67,7 +67,7 @@ he:
     back_to_work: תחזור לעבודה, בטלן!
     export: יצוא
     hey: הי!
-    import: 
+    import:
     logout: יציאה
     support: תמיכה
     title: סטרינגר | עוזר ה- RSS שלך
@@ -77,7 +77,7 @@ he:
       archived_stories: סיפורים ישנים
       mark_all: סמן הכל כנקרא
       refresh: רענון
-      starred_stories: 
+      starred_stories:
       view_feeds: בדוק את הפיד
     feed:
       last_fetched:
@@ -92,28 +92,28 @@ he:
       archived_stories: סיפורים ישנים
       feeds: ראה פיד
       home: חזור לסיפורים
-      starred_stories: 
+      starred_stories:
     shortcuts:
       keys:
-        a: 
+        a:
         bv: תעבור לקישור של הסיפור
-        f: 
+        f:
         jk: סיפור הבא/קודם
-        left: 
+        left:
         m: סמן את הכל כנקרא/לא נקרא
         np: למעלה/למטה
         oenter: תפתח/תסגור את הסיפור
         or: או
-        r: רענון
-        right: 
-        s: 
+        ru: רענון
+        right:
+        s:
         shifta: סמן הכל כנקרא
       title: קיצורי מקשים
     zen:
       archive: ראה את כל הפריטים
       go_make: ולך תעשה משהו חיוני
       gtfo: הפסק לקרוא בלוגים
-      rss_zero: 
+      rss_zero:
   sessions:
     destroy:
       flash:
@@ -128,10 +128,10 @@ he:
       subtitle: ברוך שובך, חבר!
       title: סטרינגר עושה סדר ב
   starred:
-    next: 
-    of: 
-    previous: 
-    sorry: 
+    next:
+    of:
+    previous:
+    sorry:
   stories:
     keep_unread: סמן כלא נקרא
   time:
@@ -142,9 +142,9 @@ he:
     as_read: כנקרא
     click_to_read: (לקריאה)
     description: אנחנו מחפשים סיפורים בשבילך, תן לנו קצת זמן.
-    heroku_hourly_task: 
-    heroku_one_more_thing: 
-    heroku_scheduler: 
+    heroku_hourly_task:
+    heroku_one_more_thing:
+    heroku_scheduler:
     mark_all: סמן הכל
     ready: יפה, הכל מוכן!
     refresh: רענון
